@@ -1,5 +1,5 @@
 # OSS Audit: Inkscape
-**Student Name:** [Your Name]  
+**Student Name:** Shreya Saloni 
 **Registration Number:** 24BAI10170  
 **Course:** Open Source Software (NGMC)
 
