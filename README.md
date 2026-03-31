@@ -1,18 +1,22 @@
 # OSS Audit: Inkscape
-**Student Name:** Shreya Saloni 
+**Student Name:** Shreya Saloni  
 **Registration Number:** 24BAI10170  
 **Course:** Open Source Software (NGMC)
 
-## Project Overview
-This repository contains the technical audit and shell scripts for **Inkscape**, an open-source vector graphics editor. Inkscape is licensed under **GPL v2+** and is a key tool in the FOSS ecosystem for open standards (SVG).
+## Project Description
+This repository contains a comprehensive technical audit and suite of shell scripts for **Inkscape**, the premier open-source vector graphics editor. This project explores FOSS licensing (GPL v2+), system integration, and the ethical philosophy of open-source development.
 
-## Shell Scripts Included
-1. `system_identity.sh`: Displays Linux system info and OS license.
-2. `package_inspector.sh`: Checks if Inkscape is installed and its purpose.
-3. `disk_auditor.sh`: Audits permissions and sizes of system/Inkscape directories.
-4. `log_analyzer.sh`: Scans system logs for specific keywords.
-5. `manifesto_gen.sh`: Generates a personalized FOSS manifesto.
+## Repository Structure
+* `/scripts/system_identity.sh`: Reports system kernel, user, and distro license info.
+* `/scripts/package_inspector.sh`: Validates Inkscape installation using a `case` statement.
+* `/scripts/disk_auditor.sh`: Audits system directory permissions using a `for` loop.
+* `/scripts/log_analyzer.sh`: Processes system logs using a `while-read` loop.
+* `/scripts/manifesto_gen.sh`: An interactive script for generating a FOSS manifesto.
 
-## How to Run
-Give execution permissions to all scripts:
-`chmod +x scripts/*.sh`
+## Technical Requirements
+* **OS**: Linux (Ubuntu/Debian preferred)
+* **Shell**: Bash
+* **Permissions**: Run `chmod +x scripts/*.sh` before execution.
+
+## License
+This project is part of an academic audit. The software being audited (Inkscape) is licensed under the **GNU GPL v2+**.
